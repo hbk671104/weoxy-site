@@ -23,7 +23,7 @@ export function Header() {
             <div className="w-8 h-8 bg-teal-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">W</span>
             </div>
-            <span className="text-xl font-bold text-navy-900">WeOxy</span>
+            <span className="text-xl font-bold font-display text-navy-900">WeOxy</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -58,7 +58,7 @@ export function Header() {
               <User className="h-4 w-4" />
               Log in
             </a>
-            <a href="#" className="p-2 text-gray-600 hover:text-navy-900 transition-colors relative">
+            <a href="#" className="p-2 text-gray-600 hover:text-navy-900 transition-colors relative" aria-label="Shopping cart">
               <ShoppingCart className="h-5 w-5" />
             </a>
 
@@ -66,6 +66,8 @@ export function Header() {
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="md:hidden p-2 text-gray-600 hover:text-navy-900 cursor-pointer"
+              aria-label={mobileOpen ? "Close menu" : "Open menu"}
+              aria-expanded={mobileOpen}
             >
               {mobileOpen ? (
                 <X className="h-5 w-5" />

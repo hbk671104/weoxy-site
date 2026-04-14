@@ -15,13 +15,13 @@ export function ProviderCTA() {
           <p className="text-sm font-semibold uppercase tracking-widest text-teal-200 mb-3">
             For Healthcare Providers
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-6">
-            Partner with WeOxy today
+          <h2 className="font-display text-display-section font-bold mb-6">
+            Become a WeOxy dealer
           </h2>
           <p className="text-lg text-white/80 leading-relaxed mb-10 max-w-2xl mx-auto">
-            Join our growing network of healthcare providers who trust WeOxy for
-            their patients' oxygen therapy needs. Get exclusive dealer pricing
-            and priority support.
+            Get exclusive dealer pricing, priority allocation, and 48-hour
+            advance replacement on every device. Apply for a dealer account
+            to access the full product catalog.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
@@ -31,7 +31,7 @@ export function ProviderCTA() {
               size="lg"
               className="bg-white text-teal-700 hover:bg-gray-50 shadow-lg"
             >
-              Join Network
+              Request Dealer Account
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button

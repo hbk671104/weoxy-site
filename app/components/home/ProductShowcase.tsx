@@ -9,9 +9,9 @@ export function ProductShowcase() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection>
           <SectionHeader
-            eyebrow="Product Showcase"
-            title="The ultimate portable oxygen for a better life"
-            description="Breathe freely, spend wisely. Our lineup covers every need from standard to professional use."
+            eyebrow="Product Lineup"
+            title="Three models, one standard of quality"
+            description="5, 6, or 7 pulse flow settings with the same 3.97 lb body and USB-C charging across every model."
           />
         </AnimatedSection>
 
@@ -53,21 +53,21 @@ export function ProductShowcase() {
                   className={`aspect-[4/5] bg-gradient-to-br ${product.color} flex items-center justify-center`}
                 >
                   <div className="text-center text-white">
-                    <span className="text-7xl font-bold block mb-2">
+                    <span className="text-7xl font-bold font-display block mb-2">
                       {product.name}
                     </span>
                     <p className="text-white/80 text-sm">{product.pulse}</p>
                   </div>
                 </div>
                 <div className="p-6 bg-white border border-gray-100 border-t-0 rounded-b-2xl">
-                  <h3 className="text-lg font-bold text-navy-900">
+                  <h3 className="text-lg font-bold font-display text-navy-900">
                     WeOxy {product.name}
                   </h3>
                   <p className="text-sm text-gray-500 mt-1">
                     {product.pulse} · {product.battery}
                   </p>
                   <p className="text-sm text-gray-400 mt-2">
-                    Log in to see price
+                    Log in for dealer pricing
                   </p>
                 </div>
               </div>

@@ -35,7 +35,7 @@ export function Button({
   className = "",
   onClick,
 }: ButtonProps) {
-  const classes = `inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-200 cursor-pointer ${variants[variant]} ${sizes[size]} ${className}`;
+  const classes = `inline-flex items-center justify-center font-semibold rounded-lg transition-[color,background-color,border-color,box-shadow] duration-200 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600 ${variants[variant]} ${sizes[size]} ${className}`;
 
   if (to) {
     return (

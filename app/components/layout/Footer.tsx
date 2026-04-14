@@ -29,11 +29,11 @@ export function Footer() {
               <div className="w-8 h-8 bg-teal-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">W</span>
               </div>
-              <span className="text-xl font-bold">WeOxy</span>
+              <span className="text-xl font-bold font-display">WeOxy</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
-              The ultimate portable oxygen concentrator for a better life.
-              Breathe freely, spend wisely.
+              Portable oxygen concentrators for healthcare providers.
+              ISO 13485 certified. FAA approved.
             </p>
             <div className="space-y-2 text-sm text-gray-400">
               <a

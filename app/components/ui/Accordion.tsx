@@ -20,7 +20,7 @@ export function Accordion({ items }: AccordionProps) {
         <div key={index}>
           <button
             onClick={() => setOpenIndex(openIndex === index ? null : index)}
-            className="flex w-full items-center justify-between py-5 text-left cursor-pointer"
+            className="flex w-full items-center justify-between py-5 text-left cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-600 rounded-sm"
           >
             <span className="text-base font-medium text-navy-900 pr-4">
               {item.question}

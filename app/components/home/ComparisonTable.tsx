@@ -9,9 +9,9 @@ export function ComparisonTable() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection>
           <SectionHeader
-            eyebrow="See the Difference"
+            eyebrow="Head-to-Head"
             title="WeOxy vs. the competition"
-            description="Compare key specifications across the industry"
+            description="WeOxy vs. industry average across 10 key metrics"
           />
         </AnimatedSection>
 
@@ -47,7 +47,7 @@ export function ComparisonTable() {
                     <td className="py-4 px-6 text-center">
                       <div className="inline-flex items-center gap-1.5">
                         <Check className="h-4 w-4 text-teal-600" />
-                        <span className="text-sm font-semibold text-navy-900">
+                        <span className="text-sm font-semibold text-navy-900" style={{ fontVariantNumeric: 'tabular-nums' }}>
                           {row.weoxy}
                         </span>
                       </div>

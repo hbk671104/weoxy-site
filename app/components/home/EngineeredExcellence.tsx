@@ -13,8 +13,8 @@ export function EngineeredExcellence() {
         <AnimatedSection>
           <SectionHeader
             eyebrow="Specifications"
-            title="Engineered for excellence"
-            description="Every specification optimized for the best possible oxygen therapy experience"
+            title="Specifications at a glance"
+            description="Q7 model shown. All values represent highest available configuration."
             light
           />
         </AnimatedSection>
@@ -23,7 +23,7 @@ export function EngineeredExcellence() {
           {engineeredSpecs.map((spec, index) => (
             <AnimatedSection key={spec.label} delay={index * 0.08}>
               <div className="text-center p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-teal-500/30 transition-colors">
-                <p className="text-3xl md:text-4xl font-bold text-teal-400 mb-1">
+                <p className="text-3xl md:text-4xl font-bold font-display text-teal-400 mb-1" style={{ fontVariantNumeric: 'tabular-nums' }}>
                   {spec.value}
                   {spec.unit && (
                     <span className="text-lg text-teal-400/70 ml-1">

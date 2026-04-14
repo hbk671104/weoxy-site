@@ -28,12 +28,12 @@ function ProductCard({ product }: { product: Product }) {
       : "from-gray-100 to-gray-200";
 
   return (
-    <div className="group rounded-2xl border border-gray-100 overflow-hidden hover:border-teal-200 hover:shadow-lg hover:shadow-teal-600/5 transition-all duration-300">
+    <div className="group rounded-2xl border border-gray-100 overflow-hidden hover:border-teal-200 hover:shadow-lg hover:shadow-teal-600/5 transition-[border-color,box-shadow] duration-300">
       <div
         className={`aspect-square bg-gradient-to-br ${gradient} flex items-center justify-center`}
       >
         <div className="text-center">
-          <span className="text-5xl font-bold text-navy-900/80">
+          <span className="text-5xl font-bold font-display text-navy-900/80">
             {product.name.replace("WeOxy ", "").replace("Performance Battery ", "").replace("Power Battery ", "")}
           </span>
           {product.category === "poc" && (
@@ -42,7 +42,7 @@ function ProductCard({ product }: { product: Product }) {
         </div>
       </div>
       <div className="p-6">
-        <h3 className="text-lg font-bold text-navy-900 group-hover:text-teal-600 transition-colors">
+        <h3 className="text-lg font-bold font-display text-navy-900 group-hover:text-teal-600 transition-colors">
           {product.name}
         </h3>
         <p className="text-sm text-gray-500 mt-1">{product.tagline}</p>
@@ -57,7 +57,7 @@ function ProductCard({ product }: { product: Product }) {
           ))}
         </div>
         <p className="mt-4 text-sm text-gray-400 italic">
-          Log in to see price
+          Log in for dealer pricing
         </p>
       </div>
     </div>

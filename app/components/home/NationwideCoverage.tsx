@@ -73,12 +73,12 @@ export function NationwideCoverage() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="p-4 rounded-xl bg-teal-50 border border-teal-100">
                   <Truck className="h-6 w-6 text-teal-600 mb-2" />
-                  <p className="text-2xl font-bold text-navy-900">2-5 days</p>
+                  <p className="text-2xl font-bold font-display text-navy-900" style={{ fontVariantNumeric: 'tabular-nums' }}>2-5 days</p>
                   <p className="text-sm text-gray-600">Standard delivery</p>
                 </div>
                 <div className="p-4 rounded-xl bg-teal-50 border border-teal-100">
                   <Clock className="h-6 w-6 text-teal-600 mb-2" />
-                  <p className="text-2xl font-bold text-navy-900">2 PM EST</p>
+                  <p className="text-2xl font-bold font-display text-navy-900" style={{ fontVariantNumeric: 'tabular-nums' }}>2 PM EST</p>
                   <p className="text-sm text-gray-600">Same-day cutoff</p>
                 </div>
               </div>

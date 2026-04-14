@@ -6,7 +6,7 @@ export function TopBar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex flex-wrap items-center justify-between gap-2">
         <div className="flex items-center gap-6">
           <a
-            href="tel:1-888-123-4567"
+            href="tel:1-617-963-8999"
             className="flex items-center gap-1.5 hover:text-teal-400 transition-colors"
           >
             <Phone className="h-3.5 w-3.5" />

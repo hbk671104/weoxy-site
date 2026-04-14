@@ -9,15 +9,15 @@ export function WhyWeoxy() {
             <p className="text-sm font-semibold uppercase tracking-widest text-teal-600 mb-3">
               Why WeOxy
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-navy-900 tracking-tight leading-tight mb-6">
-              Built for those who need it most
+            <h2 className="font-display text-display-section font-bold text-navy-900 mb-6">
+              Why providers choose WeOxy
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              WeOxy combines cutting-edge engineering with medical-grade
-              reliability to create portable oxygen concentrators that deliver
-              more oxygen per pound than any competitor. Our devices are trusted
-              by healthcare providers across the United States who demand
-              nothing less than the best for their patients.
+              WeOxy portable oxygen concentrators deliver more oxygen per pound
+              than any competitor — at 3.97 lbs with up to 95.5% concentration.
+              ISO 13485 certified manufacturing, 8 US warehouses for fast
+              delivery, and the only POC with USB-C charging and a 5-year
+              warranty.
             </p>
           </div>
         </AnimatedSection>

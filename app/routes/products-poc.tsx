@@ -20,8 +20,8 @@ export default function ProductsPoc() {
         <AnimatedSection>
           <SectionHeader
             eyebrow="Portable Oxygen Concentrators"
-            title="Breathe freely with WeOxy"
-            description="Choose from 3 models with 5, 6, or 7 pulse flow settings"
+            title="WeOxy Q5, Q6, and Q7"
+            description="Choose from 3 models with 5, 6, or 7 pulse flow settings — all at 3.97 lbs"
           />
         </AnimatedSection>
 

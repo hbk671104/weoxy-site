@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Button } from "~/components/ui/Button";
-import { ArrowRight, Play } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export function Hero() {
   return (
@@ -23,17 +23,17 @@ export function Hero() {
               Now with Q5, Q6, and Q7
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] mb-6">
-              The ultimate way to{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-teal-300">
-                breathe better
+            <h1 className="font-display text-display-hero font-bold mb-6">
+              Portable oxygen,{" "}
+              <span className="text-teal-400">
+                purpose-built for providers
               </span>
             </h1>
 
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-8 max-w-xl">
-              Experience the lightest, longest-lasting portable oxygen
-              concentrator with industry-leading sensitivity and USB-C fast
-              charging. Trusted by healthcare providers nationwide.
+              The lightest, longest-lasting portable oxygen concentrator with
+              industry-leading trigger sensitivity and USB-C fast charging.
+              Backed by a 5-year warranty and 48-hour advance replacement.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -73,7 +73,7 @@ export function Hero() {
               <div className="absolute inset-4 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm flex items-center justify-center">
                 <div className="text-center">
                   <div className="w-40 h-40 mx-auto mb-6 bg-gradient-to-br from-teal-500/30 to-navy-700 rounded-2xl flex items-center justify-center">
-                    <span className="text-6xl font-bold text-white/80">Q7</span>
+                    <span className="text-6xl font-bold font-display text-white/80">Q7</span>
                   </div>
                   <p className="text-white/70 text-sm">WeOxy Q7 Portable Oxygen Concentrator</p>
                   <p className="text-teal-400 text-xs mt-1">10 hours · 3.97 lbs · 7 pulse settings</p>

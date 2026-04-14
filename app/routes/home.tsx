@@ -15,7 +15,7 @@ export function meta() {
     {
       name: "description",
       content:
-        "Experience the lightest, longest-lasting portable oxygen concentrator with industry-leading sensitivity, USB-C fast charging, and a 5-year warranty. Trusted by healthcare providers nationwide.",
+        "WeOxy portable oxygen concentrators: Q5, Q6, Q7. 3.97 lbs, up to 95.5% O₂ concentration, USB-C charging, 5-year warranty. ISO 13485 certified, FAA approved. Dealer accounts available.",
     },
   ];
 }

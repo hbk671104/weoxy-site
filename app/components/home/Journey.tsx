@@ -8,9 +8,9 @@ export function Journey() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection>
           <SectionHeader
-            eyebrow="Your Journey"
+            eyebrow="How It Works"
             title="Getting started is simple"
-            description="From registration to delivery in 6 easy steps"
+            description="From registration to delivery in 6 steps"
           />
         </AnimatedSection>
 

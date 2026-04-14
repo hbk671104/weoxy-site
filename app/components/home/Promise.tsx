@@ -1,25 +1,25 @@
 import { AnimatedSection } from "~/components/ui/AnimatedSection";
 import { SectionHeader } from "~/components/ui/SectionHeader";
-import { RefreshCw, Wrench, Clock } from "lucide-react";
+import { RefreshCw, ShieldCheck, Headphones } from "lucide-react";
 
 const promises = [
   {
+    icon: ShieldCheck,
+    title: "5-Year Warranty",
+    description:
+      "Full device coverage — not just parts. Covers manufacturing defects and component failures under normal use for 5 years.",
+  },
+  {
     icon: RefreshCw,
-    title: "Replacement First",
-    description:
-      "We ship a replacement device before you return the original. Your patients never go without oxygen therapy.",
-  },
-  {
-    icon: Wrench,
-    title: "No Repair Delays",
-    description:
-      "We don't make you wait for repairs. Our advance replacement program means zero downtime for your practice.",
-  },
-  {
-    icon: Clock,
     title: "48-Hour Advance Replacement",
     description:
-      "Contact us about a device issue and receive a replacement within 48 hours — guaranteed.",
+      "Report a device issue and receive a replacement within 48 hours. We ship before you return the original — zero patient downtime.",
+  },
+  {
+    icon: Headphones,
+    title: "Dedicated Account Support",
+    description:
+      "Direct access to your account representative by phone or email. No call centers, no ticket queues. Mon–Fri, 8 AM – 6 PM EST.",
   },
 ];
 

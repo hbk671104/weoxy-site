@@ -44,8 +44,8 @@ export default function Support() {
         <AnimatedSection>
           <SectionHeader
             eyebrow="Support"
-            title="We're here to help"
-            description="Download product documentation, browse FAQs, or get in touch with our support team"
+            title="Support & documentation"
+            description="Download product documentation, browse FAQs, or contact our support team directly"
           />
         </AnimatedSection>
 
@@ -60,7 +60,7 @@ export default function Support() {
                 <a
                   key={doc.title}
                   href="#"
-                  className="group p-6 rounded-2xl border border-gray-100 hover:border-teal-200 hover:shadow-lg hover:shadow-teal-600/5 transition-all duration-300"
+                  className="group p-6 rounded-2xl border border-gray-100 hover:border-teal-200 hover:shadow-lg hover:shadow-teal-600/5 transition-[border-color,box-shadow] duration-300"
                 >
                   <div className="w-12 h-12 rounded-xl bg-teal-50 flex items-center justify-center mb-4 group-hover:bg-teal-100 transition-colors">
                     <doc.icon className="h-6 w-6 text-teal-600" />

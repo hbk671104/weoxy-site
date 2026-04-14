@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+  --font-sans: "Be Vietnam Pro", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-display: "Archivo", ui-sans-serif, system-ui, sans-serif;
 
   --color-navy-950: #0a1628;
   --color-navy-900: #0a2540;
@@ -16,6 +17,14 @@
 
   --color-medical-50: #f0fdfa;
   --color-medical-100: #ccfbf1;
+
+  --text-display-hero: clamp(2.25rem, 1.5rem + 2.5vw, 3.75rem);
+  --text-display-hero--line-height: 1.08;
+  --text-display-hero--letter-spacing: -0.025em;
+
+  --text-display-section: clamp(1.875rem, 1.25rem + 1.75vw, 3rem);
+  --text-display-section--line-height: 1.15;
+  --text-display-section--letter-spacing: -0.02em;
 }
 
 html,
@@ -25,4 +34,14 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-kerning: normal;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-pulse {
+    animation: none;
+  }
 }

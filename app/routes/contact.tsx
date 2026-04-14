@@ -34,8 +34,8 @@ export default function Contact() {
         <AnimatedSection>
           <SectionHeader
             eyebrow="Contact Us"
-            title="Let's connect"
-            description="Our team is ready to answer your questions, provide product information, and help you get started with WeOxy."
+            title="Get in touch"
+            description="Questions about products, dealer accounts, or support? Our team typically responds within one business day."
           />
         </AnimatedSection>
 
@@ -46,7 +46,7 @@ export default function Contact() {
               <div className="space-y-6">
                 <a
                   href="tel:1-617-963-8999"
-                  className="flex items-start gap-4 p-5 rounded-xl bg-gray-50 border border-gray-100 hover:border-teal-200 hover:shadow-md transition-all group"
+                  className="flex items-start gap-4 p-5 rounded-xl bg-gray-50 border border-gray-100 hover:border-teal-200 hover:shadow-md transition-[border-color,box-shadow] group"
                 >
                   <div className="w-12 h-12 shrink-0 rounded-xl bg-teal-50 flex items-center justify-center group-hover:bg-teal-100 transition-colors">
                     <Phone className="h-5 w-5 text-teal-600" />
@@ -59,7 +59,7 @@ export default function Contact() {
 
                 <a
                   href="mailto:sales@weoxy.com"
-                  className="flex items-start gap-4 p-5 rounded-xl bg-gray-50 border border-gray-100 hover:border-teal-200 hover:shadow-md transition-all group"
+                  className="flex items-start gap-4 p-5 rounded-xl bg-gray-50 border border-gray-100 hover:border-teal-200 hover:shadow-md transition-[border-color,box-shadow] group"
                 >
                   <div className="w-12 h-12 shrink-0 rounded-xl bg-teal-50 flex items-center justify-center group-hover:bg-teal-100 transition-colors">
                     <Mail className="h-5 w-5 text-teal-600" />
