@@ -36,7 +36,7 @@ jobs:
         run: npm run build
 
       - name: Copy index.html to 404.html
-        run: cp build/client/weoxy-site/index.html build/client/404.html
+        run: cp build/client/index.html build/client/404.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
