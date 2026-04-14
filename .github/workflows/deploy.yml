@@ -35,6 +35,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Flatten prerendered output
+        run: cp -r build/client/weoxy-site/* build/client/ && rm -rf build/client/weoxy-site
+
       - name: Copy index.html to 404.html
         run: cp build/client/index.html build/client/404.html
 
