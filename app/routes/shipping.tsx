@@ -34,14 +34,14 @@ export default function Shipping() {
             <div className="flex items-start gap-4 p-6 rounded-xl bg-teal-50 border border-teal-100">
               <Truck className="h-8 w-8 text-teal-600 shrink-0" />
               <div>
-                <p className="text-2xl font-bold text-navy-900" style={{ fontVariantNumeric: 'tabular-nums' }}>2-5 Days</p>
+                <p className="text-xl sm:text-2xl font-bold text-navy-900" style={{ fontVariantNumeric: 'tabular-nums' }}>2-5 Days</p>
                 <p className="text-sm text-gray-600">Standard delivery nationwide</p>
               </div>
             </div>
             <div className="flex items-start gap-4 p-6 rounded-xl bg-teal-50 border border-teal-100">
               <Clock className="h-8 w-8 text-teal-600 shrink-0" />
               <div>
-                <p className="text-2xl font-bold text-navy-900" style={{ fontVariantNumeric: 'tabular-nums' }}>2 PM EST</p>
+                <p className="text-xl sm:text-2xl font-bold text-navy-900" style={{ fontVariantNumeric: 'tabular-nums' }}>2 PM EST</p>
                 <p className="text-sm text-gray-600">Same-day processing cutoff</p>
               </div>
             </div>

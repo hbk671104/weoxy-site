@@ -91,7 +91,7 @@ export function ProductTabs() {
           <Link
             key={tab.to}
             to={tab.to}
-            className={`px-5 py-2.5 rounded-lg text-sm font-medium whitespace-nowrap transition-colors ${
+            className={`px-5 py-3 rounded-lg text-sm font-medium whitespace-nowrap transition-colors ${
               isActive
                 ? "bg-teal-600 text-white"
                 : "bg-gray-100 text-gray-600 hover:bg-gray-200"

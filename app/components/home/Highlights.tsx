@@ -21,7 +21,7 @@ export function Highlights() {
                 <div className="w-12 h-12 rounded-xl bg-teal-50 flex items-center justify-center mb-4 group-hover:bg-teal-100 transition-colors">
                   <item.icon className="h-6 w-6 text-teal-600" />
                 </div>
-                <p className="text-3xl font-bold font-display text-navy-900 mb-1" style={{ fontVariantNumeric: 'tabular-nums' }}>
+                <p className="text-3xl md:text-4xl font-bold font-display text-navy-900 mb-1" style={{ fontVariantNumeric: 'tabular-nums' }}>
                   {item.value}
                 </p>
                 <p className="font-semibold text-navy-900 mb-1">

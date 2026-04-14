@@ -52,7 +52,7 @@ export default function Support() {
         {/* Documents */}
         <AnimatedSection delay={0.1}>
           <div className="mt-12">
-            <h3 className="text-xl font-bold text-navy-900 mb-6">
+            <h3 className="text-lg sm:text-xl font-bold text-navy-900 mb-6">
               Documents & Downloads
             </h3>
             <div className="grid sm:grid-cols-3 gap-6">
@@ -60,7 +60,7 @@ export default function Support() {
                 <a
                   key={doc.title}
                   href="#"
-                  className="group p-6 rounded-2xl border border-gray-100 hover:border-teal-200 hover:shadow-lg hover:shadow-teal-600/5 transition-[border-color,box-shadow] duration-300"
+                  className="group p-6 rounded-2xl border border-gray-100 hover:border-teal-200 hover:shadow-lg hover:shadow-teal-600/5 active:border-teal-300 active:shadow-none transition-[border-color,box-shadow] duration-300"
                 >
                   <div className="w-12 h-12 rounded-xl bg-teal-50 flex items-center justify-center mb-4 group-hover:bg-teal-100 transition-colors">
                     <doc.icon className="h-6 w-6 text-teal-600" />
@@ -84,7 +84,7 @@ export default function Support() {
         {/* FAQs */}
         <AnimatedSection delay={0.2}>
           <div className="mt-16" id="faqs">
-            <h3 className="text-xl font-bold text-navy-900 mb-6">
+            <h3 className="text-lg sm:text-xl font-bold text-navy-900 mb-6">
               Frequently Asked Questions
             </h3>
             <Accordion items={supportFaqs} />
@@ -93,7 +93,7 @@ export default function Support() {
 
         {/* Contact Fallback */}
         <AnimatedSection delay={0.3}>
-          <div className="mt-16 text-center p-10 rounded-2xl bg-gray-50 border border-gray-100">
+          <div className="mt-16 text-center p-8 sm:p-10 rounded-2xl bg-gray-50 border border-gray-100">
             <Phone className="h-10 w-10 text-teal-600 mx-auto mb-4" />
             <h3 className="text-xl font-bold text-navy-900 mb-2">
               Still need help?

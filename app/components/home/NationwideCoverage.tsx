@@ -21,7 +21,7 @@ export function NationwideCoverage() {
             <div className="aspect-[4/3] bg-gray-100 rounded-2xl border border-gray-200 relative overflow-hidden">
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center">
-                  <div className="w-64 h-40 mx-auto mb-4 relative">
+                  <div className="w-full max-w-[256px] h-40 mx-auto mb-4 relative">
                     {/* Simplified US map shape */}
                     <div className="absolute inset-0 bg-navy-900/5 rounded-xl" />
                     {/* Warehouse dots */}
@@ -54,7 +54,7 @@ export function NationwideCoverage() {
           {/* Warehouse List + Stats */}
           <div>
             <AnimatedSection delay={0.2}>
-              <div className="grid grid-cols-2 gap-4 mb-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 {warehouses.map((wh) => (
                   <div
                     key={`${wh.city}-${wh.state}`}

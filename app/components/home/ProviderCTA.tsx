@@ -4,10 +4,10 @@ import { ArrowRight, Download } from "lucide-react";
 
 export function ProviderCTA() {
   return (
-    <section className="py-20 md:py-28 bg-gradient-to-br from-teal-600 to-teal-700 text-white relative overflow-hidden">
+    <section className="py-20 md:py-28 bg-linear-to-br from-teal-600 to-teal-700 text-white relative overflow-hidden">
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute -top-24 -right-24 w-96 h-96 bg-white rounded-full blur-3xl" />
-        <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-white rounded-full blur-3xl" />
+        <div className="absolute -top-24 -right-24 w-48 h-48 md:w-96 md:h-96 bg-white rounded-full blur-3xl" />
+        <div className="absolute -bottom-24 -left-24 w-48 h-48 md:w-96 md:h-96 bg-white rounded-full blur-3xl" />
       </div>
 
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -29,7 +29,7 @@ export function ProviderCTA() {
               to="/contact"
               variant="secondary"
               size="lg"
-              className="bg-white text-teal-700 hover:bg-gray-50 shadow-lg"
+              className="bg-white! text-teal-700! hover:bg-gray-50! shadow-lg"
             >
               Request Dealer Account
               <ArrowRight className="ml-2 h-5 w-5" />

@@ -50,7 +50,7 @@ export function ProductShowcase() {
                   </div>
                 )}
                 <div
-                  className={`aspect-[4/5] bg-gradient-to-br ${product.color} flex items-center justify-center`}
+                  className={`aspect-4/3 sm:aspect-4/5 bg-linear-to-br ${product.color} flex items-center justify-center`}
                 >
                   <div className="text-center text-white">
                     <span className="text-7xl font-bold font-display block mb-2">

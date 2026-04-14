@@ -16,7 +16,7 @@ export function ComparisonTable() {
         </AnimatedSection>
 
         <AnimatedSection delay={0.2}>
-          <div className="mt-12 overflow-x-auto">
+          <div className="mt-12 relative overflow-x-auto after:pointer-events-none after:absolute after:right-0 after:inset-y-0 after:w-8 after:bg-linear-to-l after:from-gray-50 after:to-transparent md:after:hidden">
             <table className="w-full min-w-[600px]">
               <thead>
                 <tr>

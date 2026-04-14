@@ -39,7 +39,7 @@ export default function Contact() {
           />
         </AnimatedSection>
 
-        <div className="mt-16 grid lg:grid-cols-2 gap-16">
+        <div className="mt-16 grid lg:grid-cols-2 gap-10 lg:gap-16">
           {/* Contact Info */}
           <div>
             <AnimatedSection delay={0.1}>
@@ -109,7 +109,7 @@ export default function Contact() {
                     <a
                       key={link.label}
                       href={link.href}
-                      className="px-4 py-2 bg-gray-100 hover:bg-teal-50 hover:text-teal-600 text-sm font-medium text-gray-700 rounded-lg transition-colors"
+                      className="px-4 py-2.5 bg-gray-100 hover:bg-teal-50 hover:text-teal-600 text-sm font-medium text-gray-700 rounded-lg transition-colors"
                     >
                       {link.label}
                     </a>
@@ -121,7 +121,7 @@ export default function Contact() {
 
           {/* Mission Statement + CTA */}
           <AnimatedSection delay={0.2}>
-            <div className="rounded-2xl bg-gradient-to-br from-navy-950 to-navy-900 text-white p-10 h-full flex flex-col justify-between">
+            <div className="rounded-2xl bg-gradient-to-br from-navy-950 to-navy-900 text-white p-8 md:p-10 lg:h-full flex flex-col justify-between">
               <div>
                 <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
                 <p className="text-gray-300 leading-relaxed text-lg">

@@ -7,8 +7,8 @@ export function Hero() {
     <section className="relative overflow-hidden bg-gradient-to-br from-navy-950 via-navy-900 to-navy-800 text-white">
       {/* Subtle background pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-teal-500 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-teal-600 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
+        <div className="absolute top-0 right-0 w-48 h-48 md:w-96 md:h-96 bg-teal-500 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
+        <div className="absolute bottom-0 left-0 w-48 h-48 md:w-96 md:h-96 bg-teal-600 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 lg:py-40">
@@ -46,7 +46,7 @@ export function Hero() {
               </Button>
             </div>
 
-            <div className="mt-10 flex items-center gap-8 text-sm text-gray-400">
+            <div className="mt-10 flex flex-wrap items-center gap-4 sm:gap-8 text-sm text-gray-400">
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 bg-teal-600/20 rounded flex items-center justify-center">
                   <span className="text-teal-400 text-[10px] font-bold">ISO</span>
@@ -66,7 +66,7 @@ export function Hero() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="relative hidden lg:block"
+            className="relative hidden md:block"
           >
             <div className="relative aspect-square max-w-lg mx-auto">
               <div className="absolute inset-0 bg-gradient-to-br from-teal-500/20 to-transparent rounded-3xl" />
