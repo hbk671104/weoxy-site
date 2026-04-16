@@ -34,6 +34,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          VITE_ODOO_LIVECHAT_URL: ${{ secrets.VITE_ODOO_LIVECHAT_URL }}
 
       - name: Flatten prerendered output
         run: cp -r build/client/weoxy-site/* build/client/ && rm -rf build/client/weoxy-site

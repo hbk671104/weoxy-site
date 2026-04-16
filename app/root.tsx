@@ -34,6 +34,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+        {import.meta.env.VITE_ODOO_LIVECHAT_URL && (
+          <script
+            type="text/javascript"
+            src={import.meta.env.VITE_ODOO_LIVECHAT_URL}
+          />
+        )}
       </head>
       <body>
         {children}
