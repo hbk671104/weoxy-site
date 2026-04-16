@@ -41,11 +41,14 @@ export function Hero() {
               Lower service cost. Fewer service calls. Higher margins.
             </p>
 
-            <p className="text-base md:text-lg text-gray-400 leading-relaxed mb-8 max-w-xl">
-              3.97 lbs with up to 10-hour battery life, ultra-sensitive breath
-              detection, and USB-C fast charging. Backed by a 5-year device
-              warranty, 3-year sieve bed warranty, and 48-hour advance replacement.
-            </p>
+            <div className="mb-8 grid grid-cols-2 gap-3 text-sm text-gray-400">
+              {stats.map((stat) => (
+                <div key={stat.label} className="flex items-center gap-2">
+                  <stat.icon className="h-4 w-4 text-teal-400 shrink-0" />
+                  <span>{stat.label}</span>
+                </div>
+              ))}
+            </div>
 
             <div className="flex flex-wrap gap-4">
               <Button to="/products" variant="primary" size="lg">
@@ -55,15 +58,6 @@ export function Hero() {
               <Button to="/contact" variant="outline" size="lg" className="border-white/30 text-white hover:bg-white/10 hover:text-white">
                 Contact Sales
               </Button>
-            </div>
-
-            <div className="mt-10 grid grid-cols-2 gap-3 text-sm text-gray-400">
-              {stats.map((stat) => (
-                <div key={stat.label} className="flex items-center gap-2">
-                  <stat.icon className="h-4 w-4 text-teal-400 shrink-0" />
-                  <span>{stat.label}</span>
-                </div>
-              ))}
             </div>
           </motion.div>
 
