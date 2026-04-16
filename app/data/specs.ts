@@ -10,7 +10,7 @@ export const engineeredSpecs: Spec[] = [
   { label: "Battery Life", value: "10", unit: "hrs" },
   { label: "Charge Time", value: "2", unit: "hrs" },
   { label: "Trigger Sensitivity", value: "<0.12", unit: "cm H₂O" },
-  { label: "Service Plan", value: "5yr / 2yr", unit: "" },
+  { label: "Service Plan", value: "5yr / 3yr", unit: "" },
 ];
 
 export interface ComparisonRow {

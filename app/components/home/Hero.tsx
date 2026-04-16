@@ -1,6 +1,13 @@
 import { motion } from "motion/react";
 import { Button } from "~/components/ui/Button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ShieldCheck, Activity, Battery, Feather } from "lucide-react";
+
+const stats = [
+  { icon: ShieldCheck, label: "5-year device · 3-year sieve bed warranty" },
+  { icon: Feather, label: "3.97 lbs ultra-lightweight" },
+  { icon: Battery, label: "Up to 10 hours battery life" },
+  { icon: Activity, label: "Ultra-sensitive breath detection" },
+];
 
 export function Hero() {
   return (
@@ -20,20 +27,24 @@ export function Hero() {
           >
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-sm mb-6">
               <span className="w-2 h-2 bg-teal-400 rounded-full animate-pulse" />
-              Now with Q5, Q6, and Q7
+              Award-winning design · FAA approved
             </div>
 
-            <h1 className="font-display text-display-hero font-bold mb-6">
-              Portable oxygen,{" "}
+            <h1 className="font-display text-display-hero font-bold mb-4">
+              Optimized for{" "}
               <span className="text-teal-400">
-                purpose-built for providers
+                DME efficiency
               </span>
             </h1>
 
-            <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-8 max-w-xl">
-              The lightest, longest-lasting portable oxygen concentrator with
-              industry-leading trigger sensitivity and USB-C fast charging.
-              Backed by a 5-year warranty and 48-hour advance replacement.
+            <p className="text-xl md:text-2xl text-gray-200 font-medium mb-6 max-w-xl">
+              Lower service cost. Fewer service calls. Higher margins.
+            </p>
+
+            <p className="text-base md:text-lg text-gray-400 leading-relaxed mb-8 max-w-xl">
+              3.97 lbs with up to 10-hour battery life, ultra-sensitive breath
+              detection, and USB-C fast charging. Backed by a 5-year device
+              warranty, 3-year sieve bed warranty, and 48-hour advance replacement.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -46,19 +57,13 @@ export function Hero() {
               </Button>
             </div>
 
-            <div className="mt-10 flex flex-wrap items-center gap-4 sm:gap-8 text-sm text-gray-400">
-              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-teal-600/20 rounded flex items-center justify-center">
-                  <span className="text-teal-400 text-[10px] font-bold">ISO</span>
+            <div className="mt-10 grid grid-cols-2 gap-3 text-sm text-gray-400">
+              {stats.map((stat) => (
+                <div key={stat.label} className="flex items-center gap-2">
+                  <stat.icon className="h-4 w-4 text-teal-400 shrink-0" />
+                  <span>{stat.label}</span>
                 </div>
-                <span>ISO 13485 Certified</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-teal-600/20 rounded flex items-center justify-center">
-                  <span className="text-teal-400 text-[10px] font-bold">FAA</span>
-                </div>
-                <span>FAA Approved</span>
-              </div>
+              ))}
             </div>
           </motion.div>
 

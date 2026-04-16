@@ -5,9 +5,9 @@ import { RefreshCw, ShieldCheck, Headphones } from "lucide-react";
 const promises = [
   {
     icon: ShieldCheck,
-    title: "5-Year Warranty",
+    title: "5-Year Device Warranty",
     description:
-      "Full device coverage — not just parts. Covers manufacturing defects and component failures under normal use for 5 years.",
+      "Full device coverage for 5 years plus a 3-year sieve bed warranty. Covers manufacturing defects, component failures, and sieve bed degradation under normal use.",
   },
   {
     icon: RefreshCw,

@@ -1,6 +1,5 @@
 import { Hero } from "~/components/home/Hero";
-import { Highlights } from "~/components/home/Highlights";
-import { WhyWeoxy } from "~/components/home/WhyWeoxy";
+import { Advantages } from "~/components/home/Advantages";
 import { ProductShowcase } from "~/components/home/ProductShowcase";
 import { EngineeredExcellence } from "~/components/home/EngineeredExcellence";
 import { ComparisonTable } from "~/components/home/ComparisonTable";
@@ -15,7 +14,7 @@ export function meta() {
     {
       name: "description",
       content:
-        "WeOxy portable oxygen concentrators: Q5, Q6, Q7. 3.97 lbs, up to 95.5% O₂ concentration, USB-C charging, 5-year warranty. ISO 13485 certified, FAA approved. Dealer accounts available.",
+        "WeOxy portable oxygen concentrators — optimized for DME efficiency. 3.97 lbs, up to 10-hour battery, ultra-sensitive breath detection, 5-year device / 3-year sieve bed warranty. Lower service cost, fewer calls, higher margins.",
     },
   ];
 }
@@ -24,8 +23,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Highlights />
-      <WhyWeoxy />
+      <Advantages />
       <ProductShowcase />
       <EngineeredExcellence />
       <ComparisonTable />
